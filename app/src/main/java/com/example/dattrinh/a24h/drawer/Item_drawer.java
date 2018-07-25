@@ -1,9 +1,5 @@
 package com.example.dattrinh.a24h.drawer;
 
-/**
- * Created by DatTrinh on 6/6/2018.
- */
-
 public class Item_drawer {
     private String ten;
     private String url;

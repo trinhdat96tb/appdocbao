@@ -11,10 +11,6 @@ import java.util.ArrayList;
 import javax.xml.parsers.SAXParser;
 import javax.xml.parsers.SAXParserFactory;
 
-/**
- * Created by DatTrinh on 7/4/2018.
- */
-
 public class XML_Asyntask_Search extends AsyncTask<String, Void, ArrayList<Item>> {
     public static final int WHAT_NEWS = 1;
     private Handler handler;

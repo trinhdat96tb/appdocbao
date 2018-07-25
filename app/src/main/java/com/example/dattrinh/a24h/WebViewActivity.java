@@ -12,7 +12,7 @@ import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
 /**
- * Created by DatTrinh on 6/13/2018.
+ * Created by DatTrinh on 7/7/2018.
  */
 
 public class WebViewActivity extends AppCompatActivity {

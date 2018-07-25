@@ -6,17 +6,10 @@ import android.os.AsyncTask;
 import android.os.Handler;
 import android.os.Message;
 import android.util.Log;
-
 import com.example.dattrinh.a24h.Item;
-
 import java.util.ArrayList;
-
 import javax.xml.parsers.SAXParser;
 import javax.xml.parsers.SAXParserFactory;
-
-/**
- * Created by DatTrinh on 6/4/2018.
- */
 
 public class XML_Asyntask extends AsyncTask<String, Void, ArrayList<Item>> {
     public static final int WHAT_NEWS = 1;

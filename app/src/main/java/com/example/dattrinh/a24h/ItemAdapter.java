@@ -12,9 +12,6 @@ import android.widget.TextView;
 import com.bumptech.glide.Glide;
 import java.util.ArrayList;
 
-/**
- * Created by DatTrinh on 6/4/2018.
- */
 
 public class ItemAdapter extends ArrayAdapter<Item> {
     private LayoutInflater inflater;

@@ -20,12 +20,10 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
-
 import com.example.dattrinh.a24h.drawer.Item_dr_adapter;
 import com.example.dattrinh.a24h.drawer.Item_drawer;
 import com.example.dattrinh.a24h.xml.XML_Asyntask;
 import com.example.dattrinh.a24h.xml.XML_Asyntask_Search;
-
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity implements Item_dr_adapter.OnClickItemListner, AdapterView.OnItemClickListener {

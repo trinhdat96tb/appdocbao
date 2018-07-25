@@ -9,7 +9,7 @@ import org.xml.sax.helpers.DefaultHandler;
 import java.util.ArrayList;
 
 /**
- * Created by DatTrinh on 6/4/2018.
+ * Created by DatTrinh on 7/7/2018.
  */
 
 public class XML_Handler extends DefaultHandler {
@@ -22,7 +22,7 @@ public class XML_Handler extends DefaultHandler {
     public static final String LINK = "link";
     public static final String PUB_DATE = "pubDate";
 
-    private StringBuilder builder; // lưu trữ thông tin hiện tại của thẻ mà ta đang có
+    private StringBuilder builder;
 
     @Override
     public void startElement(String uri, String localName, String qName, Attributes attributes) throws SAXException {

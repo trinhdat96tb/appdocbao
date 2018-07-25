@@ -1,9 +1,5 @@
 package com.example.dattrinh.a24h;
 
-/**
- * Created by DatTrinh on 6/4/2018.
- */
-
 public class Item {
     private String title;
     private String description;

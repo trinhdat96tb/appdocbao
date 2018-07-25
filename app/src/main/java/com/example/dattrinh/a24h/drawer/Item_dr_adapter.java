@@ -7,15 +7,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-
 import com.example.dattrinh.a24h.R;
-
 import java.util.ArrayList;
-
-
-/**
- * Created by DatTrinh on 6/11/2018.
- */
 
 public class Item_dr_adapter extends RecyclerView.Adapter<Item_dr_adapter.ItemHolder> {
     private ArrayList<Item_drawer> arr_drawer;

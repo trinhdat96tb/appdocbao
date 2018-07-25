@@ -1,18 +1,11 @@
 package com.example.dattrinh.a24h.xml;
 
 import android.util.Log;
-
 import com.example.dattrinh.a24h.Item;
-
 import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
-
 import java.util.ArrayList;
-
-/**
- * Created by DatTrinh on 7/4/2018.
- */
 
 public class XML_Handler_Search extends DefaultHandler {
     private ArrayList<Item> arrItems = new ArrayList<>();
